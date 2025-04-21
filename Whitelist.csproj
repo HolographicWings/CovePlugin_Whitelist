@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="plugin.cfg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="plugin.cfg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CovePlugins\WebFishingCove\Cove\Cove.csproj" />
+  </ItemGroup>
+
+</Project>

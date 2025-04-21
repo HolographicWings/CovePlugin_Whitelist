@@ -1,2 +1,2 @@
 # CoveWhitelist
- Whitelist plugin for WebFishingCove dedicated server.
+ Whitelist plugin for [WebFishingCove](https://github.com/DrMeepso/WebFishingCove) dedicated server.
